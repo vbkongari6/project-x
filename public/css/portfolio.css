@@ -1,0 +1,27 @@
+body {	
+	background-image: url(../images/homepage-background-img.jpg);
+	background-repeat: no-repeat;
+}
+
+#header {
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	background-color: white;
+	text-align: center;
+	text-shadow : 0 0 0;
+	font-family: 'Mirza', sans-serif;	
+	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+}
+
+#img-design-credits {
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	font-size: 10px;
+}
+
+.blur { 
+	-webkit-filter: blur(6px);
+}
